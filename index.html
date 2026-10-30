@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saurabh Kumar Dubey | Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #070b16;
+    color: white;
+}
+
+header {
+    background: #101a2d;
+    padding: 20px;
+    text-align: center;
+}
+
+header h2 {
+    color: #269bff;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #269bff;
+}
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero span {
+    color: #269bff;
+}
+
+.hero p {
+    margin-top: 15px;
+    color: #b8c7dc;
+}
+
+.profile {
+    width: 260px;
+    height: 320px;
+    object-fit: cover;
+    border: 3px solid #269bff;
+    border-radius: 20px;
+}
+
+section {
+    padding: 55px 10%;
+}
+
+h2 {
+    color: #269bff;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #101a2d;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #203756;
+}
+
+.card p {
+    color: #c5d2e5;
+    line-height: 1.8;
+}
+
+.skills span {
+    display: inline-block;
+    background: #12345a;
+    padding: 10px 15px;
+    margin: 7px;
+    border-radius: 20px;
+}
+
+.social a {
+    display: inline-block;
+    color: white;
+    background: #12345a;
+    padding: 12px 18px;
+    margin: 7px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.social a:hover {
+    background: #269bff;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #101a2d;
+    color: #b8c7dc;
+}
+
+@media(max-width:600px) {
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .hero h1 {
+        font-size: 30px;
+    }
+    nav a {
+        display: inline-block;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>SAURABH KUMAR DUBEY</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero" id="home">
+    <div>
+        <h1>Hello, I'm<br>
+        <span>Saurabh Kumar Dubey</span></h1>
+        <p>BCA Student | Aspiring IT Professional</p>
+        <p>Welcome to my personal portfolio website.</p>
+    </div>
+
+    <img src="profile.jpg" class="profile"
+    alt="Saurabh Kumar Dubey">
+</div>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+        Hello! My name is Saurabh Kumar Dubey.
+        I am from Siwan, Bihar. I am pursuing BCA
+        3rd Semester. I am interested in programming,
+        computers and software development.
+        </p>
+    </div>
+</section>
+
+<section id="education">
+    <h2>My Education</h2>
+    <div class="card">
+        <p>BCA - 3rd Semester</p>
+        <p>ITI - ICTSM</p>
+        <p>10th Completed</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="card skills">
+        <span>C Programming</span>
+        <span>C++</span>
+        <span>SQL</span>
+        <span>Computer Basics</span>
+        <span>HTML & CSS</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="card">
+        <p>1. Personal Portfolio Website</p>
+        <p>2. Programming Practice Projects</p>
+        <p>More projects coming soon!</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card social">
+        <a href="https://www.instagram.com/saurabhkumardubey19/" target="_blank">Instagram</a>
+
+        <a href="https://www.linkedin.com/in/saurabh-kumar-dubey-bb5b8a288" target="_blank">LinkedIn</a>
+
+        <a href="https://github.com/SaurabhKumarDubey19" target="_blank">GitHub</a>
+
+        <a href="tel:+919801633328">Call Me</a>
+
+        <a href="https://wa.me/919801633328" target="_blank">WhatsApp</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Saurabh Kumar Dubey</p>
+    <p>Thank You For Visiting My Website!</p>
+</footer>
+
+</body>
+</html>
